@@ -2,8 +2,11 @@
 
 This is a work in progress.
 
-Quick instructions: source a rax environment, then run the
-provision.yml playbook:
+Quick instructions:
+
+* Source a rax environment (e.g. novarc)
+* Install the ipaddr python package `pip install ipaddr`
+* Run the provision.yml playbook:
 
     ansible-playbook provision.yml -e rax_keypair=NameOfYourKeyPair
 
